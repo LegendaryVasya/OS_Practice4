@@ -6,6 +6,17 @@
 ![image](https://user-images.githubusercontent.com/46849169/163416786-4fdd2f3e-1937-4948-984e-9db89ccc4533.png)
 
 и сравнить производительность в зависимости от языка.
+
+Программа на ассемблере была переписана(в методичке приложены инсрукции с библиотекой для эмуляции на линуксе) для комфортной реализации на Windows, переписанная программа "объединяет" 231Lib.asm и SpeedTest2.asm, имеет прописанные функции.
+
+Использловался компилятор: NASM
+Для создания exe файла: GoLink
+[Источник](https://www.youtube.com/watch?v=AHPeKY8lANk)
+Для измерения времени работы использовался cmd скрипт
+[Источник](https://askdev.ru/q/kak-izmerit-vremya-vypolneniya-komandy-v-komandnoy-stroke-windows-2851/)
+
+## Инструкция
+
 ## Отчет
 
 Assembler
