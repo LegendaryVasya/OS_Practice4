@@ -33,7 +33,7 @@ Python разработан в Pycharm
 
 3. После этого в CMD были прописаны следующие строки:
 
-nasm -f win32 [Имя исходного файла].asm -o [Имя выходного файла].obj
+nasm -f win32 [Имя исходного файла].asm -o [Имя выходного(объектного) файла].obj
 
 golink /entry:_start /console kernel32.dll user32.dll [Имя объектного файла].obj
 
